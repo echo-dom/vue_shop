@@ -4,3 +4,19 @@ html,body,#app{
     margin:0;
     padding: 0;
 }
+/* 面包屑下外边距 */
+.el-breadcrumb{
+    margin-bottom: 15px;
+}
+/* 卡片展示区阴影 */
+.el-card{
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15)!important;
+}
+/* 用户外边距 */
+.el-table{
+    margin-top: 15px;
+}
+/* 分页外边距 */
+.el-pagination{
+    margin-top: 15px;
+}

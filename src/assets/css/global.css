@@ -21,3 +21,11 @@ html,body,#app{
 .el-pagination{
     margin-top: 15px;
 }
+/* 级联选择器中展示区大小 */
+.el-cascader-panel{ 
+    height: 200px; 
+}
+/* 隐藏横向滚动条 */
+.el-scrollbar__wrap{
+    overflow-x: hidden;
+  }

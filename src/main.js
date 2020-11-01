@@ -4,6 +4,8 @@ import router from './router'
 import './plugins/element.js'
 // 导入全局样式表
 import './assets/css/global.css'
+// 导入treetable
+import TreeTable from 'vue-table-with-tree-grid'
 
 // 导入axios
 import axios from 'axios'
@@ -19,6 +21,9 @@ axios.interceptors.request.use(config => {
 // 挂载到vue 的原型对象上， 每个vue组件都可以通过this直接访问到$http 从而发起ajax请求
 Vue.prototype.$http = axios
 Vue.config.productionTip = false
+
+// 挂载Vue.component(ZkTable.name, ZkTable) 为全局注册组件
+Vue.component('tree-table',TreeTable)
 
 new Vue({
   router,

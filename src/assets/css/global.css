@@ -29,3 +29,15 @@ html,body,#app{
 .el-scrollbar__wrap{
     overflow-x: hidden;
   }
+/* 进度条 */
+.el-steps{
+    margin: 15px 0 ;
+}
+.el-step__title {
+    font-size: 13px;
+}
+
+/* 富文本编辑器内容区最小高度 */
+.ql-editor{
+    min-height: 300px;
+}
